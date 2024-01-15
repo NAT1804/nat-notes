@@ -55,5 +55,6 @@
       "type": "image/png",
       "purpose": "maskable any"
     }
-  ]
+  ],
+  "gcm_sender_id": "691290756172"
 }
