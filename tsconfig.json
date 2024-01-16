@@ -25,6 +25,8 @@
       "@components/*": ["src/app/components/*"],
       "@layout/*": ["src/app/layout/*"],
       "@pages/*": ["src/app/pages/*"],
+      "@services/*": ["src/app/services/*"],
+      "@guards/*": ["src/app/guards/*"],
       "@src/*": ["src/*"]
     }
   },

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "pwa-notes-app-26ed3": {
+      "hosting": {
+        "nat-notes": [
+          "pwa-notes-app-26ed3"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "pwa-notes-app-26ed3"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "nat-notes",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}
