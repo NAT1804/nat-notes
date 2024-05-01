@@ -5,20 +5,20 @@ import {
   Router,
   RouterStateSnapshot,
 } from '@angular/router';
-import { AuthService } from '@services/auth/auth.service';
+import { StorageService } from '@services/storage/storage.service';
 
 @Injectable({
   providedIn: 'root',
 })
 export class PermissionsService {
   private readonly router = inject(Router);
-  private readonly authService = inject(AuthService);
+  private readonly storageService = inject(StorageService);
 
   canActivate(
     route: ActivatedRouteSnapshot,
     state: RouterStateSnapshot
   ): boolean {
-    if (!this.authService.isLoggedIn()) {
+    if (!this.storageService.isLoggedIn()) {
       this.router.navigate(['auth/login']);
       return false;
     }

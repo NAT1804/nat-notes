@@ -27,6 +27,7 @@
       "@pages/*": ["src/app/pages/*"],
       "@services/*": ["src/app/services/*"],
       "@guards/*": ["src/app/guards/*"],
+      "@constants/*": ["src/app/constants/*"],
       "@src/*": ["src/*"]
     }
   },
